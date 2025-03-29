@@ -22,3 +22,5 @@ Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza 
 
 ## Design
 ![Calculator Screenshot](./design-calculadora.png)
+
+*Inspirado no design iOS*
