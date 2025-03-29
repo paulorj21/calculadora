@@ -21,4 +21,4 @@ Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza 
 - JavaScript Vanilla
 
 ## Design
-![Calculator Screenshot](./calculadora-design.png)
+![Calculator Screenshot](./design-calculadora.png)
