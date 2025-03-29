@@ -2,6 +2,8 @@
 
 Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza operações aritméticas básicas.
 
+[Live Demo](https://paulorj21.github.io/calculadora/)
+
 ## Features
 
 - **Operações Básicas**: Adição (+), Subtração (-), Multiplicação (×), Divisão (÷)
@@ -11,8 +13,8 @@ Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza 
 
 ## Estrutura do Projeto
 
-- **index.html**: Principal estrutura HTML
-- **style.css**: Estilo para a calculadora
+- **index.html**: Estrutura HTML principal
+- **style.css**: Estilização da calculadora
 - **script.js**: Lógica e funcionalidade da calculadora
 
 ## Tecnologias
