@@ -2,8 +2,6 @@
 
 Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza operações aritméticas básicas.
 
-![Calculator Screenshot](./calculadora-design.png)
-
 ## Features
 
 - **Operações Básicas**: Adição (+), Subtração (-), Multiplicação (×), Divisão (÷)
@@ -21,3 +19,6 @@ Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza 
 - HTML5
 - CSS3
 - JavaScript Vanilla
+
+## Design
+![Calculator Screenshot](./calculadora-design.png)
