@@ -2,7 +2,7 @@
 
 Simples calculadora web responsiva feita com HTML, CSS e JavaScript que realiza operações aritméticas básicas.
 
-![Calculator Screenshot](./calculadora-design)
+![Calculator Screenshot](./calculadora-design.png)
 
 ## Features
 
