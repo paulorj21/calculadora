@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+#clear {grid-area: clear;}
+#backspace {grid-area: backspace; padding: 10px;}
+#division {grid-area: divison;}
+#seven {grid-area: seven;}
+#eight {grid-area: eight;}
+#nine {grid-area: nine;}
+#multiplication {grid-area: multiplication;}
+#four {grid-area: four;}
+#five {grid-area: five;}
+#six {grid-area: six;}
+#minus {grid-area: minus;}
+#one {grid-area: one;}
+#two {grid-area: two;}
+#three {grid-area: three;}
+#plus {grid-area: plus;}
+#zero {grid-area: zeroArea;}
+#equal {grid-area: equal;}
+
+
+.calculator {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+#interface {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 20px 5px;
+    font-size: 30px;
+    font-family: monospace, sans-serif;
+}
+
+button {
+    background-color: #D8D9DB;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    transition: background-color 0.1s ease;
+}
+
+button:hover {
+    background-color: #E2E3E5;
+
+}
+
+button:active {
+    background-color: #B0B1B3;
+}
+
+.operator {
+    background-color: #DF974C;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #F5B97A;
+}
+
+.operator:active {
+    background-color: #B7652E;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    "clear clear backspace divison"
+    "seven eight nine multiplication"
+    "four five six minus"
+    "one two three plus"
+    "zeroArea zeroArea zeroArea equal";
+}

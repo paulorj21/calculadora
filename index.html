@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="interface">0</div>
+        <div class="buttons">
+            <button onclick="clearDisplay()" id="clear">C</button>
+            <button onclick="backspace()" id="backspace">←</button>
+            <button id="division" class="operator">÷</button>
+            <button id="seven" class="number">7</button>
+            <button id="eight" class="number">8</button>
+            <button id="nine" class="number">9</button>
+            <button id="multiplication" class="operator">×</button>
+            <button id="four" class="number">4</button>
+            <button id="five" class="number">5</button>
+            <button id="six" class="number">6</button>
+            <button id="minus" class="operator">-</button>
+            <button id="one" class="number">1</button>
+            <button id="two" class="number">2</button>
+            <button id="three" class="number">3</button>
+            <button id="plus" class="operator">+</button>
+            <button id="zero" class="number">0</button>
+            <button onclick="calculate()" id="equal" class="operator">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
